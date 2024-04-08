@@ -1,0 +1,7 @@
+C:\Users\sawal\Desktop\The Ranken File\Locked In Homework Time\Chapter18_Homework\Chapter18_Homework\bin\Debug\Chapter18_Homework.exe.config
+C:\Users\sawal\Desktop\The Ranken File\Locked In Homework Time\Chapter18_Homework\Chapter18_Homework\bin\Debug\Chapter18_Homework.exe
+C:\Users\sawal\Desktop\The Ranken File\Locked In Homework Time\Chapter18_Homework\Chapter18_Homework\bin\Debug\Chapter18_Homework.pdb
+C:\Users\sawal\Desktop\The Ranken File\Locked In Homework Time\Chapter18_Homework\Chapter18_Homework\obj\Debug\Chapter18_Homework.csproj.AssemblyReference.cache
+C:\Users\sawal\Desktop\The Ranken File\Locked In Homework Time\Chapter18_Homework\Chapter18_Homework\obj\Debug\Chapter18_Homework.csproj.CoreCompileInputs.cache
+C:\Users\sawal\Desktop\The Ranken File\Locked In Homework Time\Chapter18_Homework\Chapter18_Homework\obj\Debug\Chapter18_Homework.exe
+C:\Users\sawal\Desktop\The Ranken File\Locked In Homework Time\Chapter18_Homework\Chapter18_Homework\obj\Debug\Chapter18_Homework.pdb

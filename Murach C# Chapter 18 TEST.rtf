@@ -1,0 +1,310 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\fswiss\fprq2\fcharset0 Calibri;}{\f2\fmodern\fprq1\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mnaryLim0\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\brdrb\brdrs\brdrw75\brdrcf1 \nowidctlpar\hyphpar0\li-630\cf1\b\f0\fs28 Chapter 18: How to use LINQ\par
+Murach's C#\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\fs36\par
+
+\pard\nowidctlpar\hyphpar0\li-630\b\fs22 MULTIPLE CHOICE\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 1.\tab Which of the following is \i not\i0  an advantage of using LINQ?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell Makes it easier to query data by integrating the query language with C#.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b b.\cell Makes the compiled code for your project smaller.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf1\b0 c.\cell Provides IntelliSense, compile-time syntax checking, and debugging support.\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell Uses the same syntax for different data sources.\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 2.\tab What does LINQ use to implement the query operators?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell overloaded operators\cell\cf2\b c.\cell method-based queries\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf1\b0 b.\cell extension methods\cell d.\cell query methods\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 3.\tab To use LINQ with a data source, that data source must implement one of the following interfaces. Which one is it?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell IEnumerable\cell c.\cell ICloneable<T>\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell IEnumerable<T>\cell\cf2\b d.\cell Either a or b\cell\row 
+\pard\nowidctlpar\hyphpar0\cf1\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 4.\tab Which of the following is \i not\i0  one of the stages of a query operation?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell Get the data source\cell c.\cell Retrieve the query results\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b b.\cell Define the query\cell\cf1\b0 d.\cell Execute the query\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 5.\tab When a query isn\rquote t executed when it\rquote s defined, what is it using?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b a.\cell deferred execution\cell\cf1\b0 c.\cell implicit execution\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell immediate execution\cell d.\cell declared execution\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 6.\tab A query that returns selected fields from the elements of a data source is called\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell an enumeration\cell c.\cell a selection\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell a realization\cell\cf2\b d.\cell a projection\cell\row 
+\pard\nowidctlpar\hyphpar0\cf1\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 7.\tab When you code a method-based query, what do you pass to the extension methods for LINQ?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell conditional expressions\cell c.\cell switch expressions\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b b.\cell lambda expressions\cell\cf1\b0 d.\cell select expressions\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 8.\tab Which of the following clauses would you use to identify the data source for a query?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b a.\cell from\cell\cf1\b0 c.\cell orderby\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell select\cell d.\cell where\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 9.\tab Which of the following clauses would you use to retrieve selected elements from a data source?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell from\cell c.\cell orderby\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell select\cell d.\cell where\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\fs22\tab 10.\tab Which of the following clauses would you use to identify the fields you want to retrieve from each element of the data source that\rquote s selected by the query?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell from\cell c.\cell orderby\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b b.\cell select\cell\cf1\b0 d.\cell where\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 11.\tab What data type is assigned to the variable named gradeList in the following example?\par
+
+\pard\keep\hyphpar0\widctlpar\b\f2\fs18 decimal[] grades = new decimal[8] \{ 3.543m, 2.875m, 3.75m, 4m, 2.165m \};\par
+var gradeList = from grade in grades\par
+                where grade >= 3\par
+                orderby grade descending\par
+
+\pard\keep\hyphpar0\widctlpar\sa120                 select grade;\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0\f0\fs22 a.\cell string\cell c.\cell IEnumerable\cell\row\trowd\trgaph45\trleft-45\trrh216\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell decimal\cell\cf2\b d.\cell IEnumerable<decimal>\cell\row 
+\pard\nowidctlpar\hyphpar0\cf1\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 12.\tab If an object initializer doesn\rquote t specify a type, what is created?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell An explicit type \cell\cf2\b c.\cell An anonymous type \cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx4185\cellx4545\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf1\b0 b.\cell An implicit type \cell d.\cell An abstract type \cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\b\page Code example 18-1\par
+\f2\fs18 public class Department\par
+\{\par
+    public int DepartmentID;\par
+    public string DepartmentName;\par
+    public string Chairman;\par
+\}\par
+public class Student\par
+\{\par
+    public int StudentID;\par
+    public string LastName;\par
+    public string FirstName;\par
+    public int DepartmentID;\par
+    public int UnitsCompleted;\par
+\}\par
+\b0\f0\fs2\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\fs22\tab 13.\tab (Refer to code example 18-1.) What data will be returned when the following query expression is executed?\par
+
+\pard\keep\hyphpar0\widctlpar\b\f2\fs18 List<Student> studentList = StudentDB.GetStudents();\b0\f0\fs20\par
+\b\f2\fs18 var students = from student in studentList\par
+               where student.UnitsCompleted > 50\par
+               orderby student.DepartmentID,\par
+                       student.UnitsCompleted descending\par
+
+\pard\keep\hyphpar0\widctlpar\sa120                select student;\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0\f0\fs22 a.\cell The UnitsCompleted field from each Student object with units completed greater than 50\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell The UnitsCompleted and DepartmentID fields from each Student object with units completed greater than 50\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b c.\cell All Student objects with units completed greater than 50\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf1\b0 d.\cell All Student objects\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 14.\tab (Refer to code example 18-1.) What data will be returned when the following query expression is executed?\par
+
+\pard\keep\hyphpar0\widctlpar\b\f2\fs18 List<Student> studentList = StudentDB.GetStudents();\par
+List<Department> departmentList = DepartmentDB.GetDepartments();\par
+var students = from student in studentList\par
+               join department in departmentList\par
+               on student.DepartmentID equals department.DepartmentID\par
+               orderby department.DepartmentName, student.LastName,\par
+                       student.FirstName\par
+               select new \{ department.DepartmentName,\par
+
+\pard\keep\hyphpar0\widctlpar\sa120                             student.LastName, student.FirstName \};\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0\f0\fs22 a.\cell All the fields from all the Department and Student objects\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell The DepartmentID and DepartmentName fields from all the Department objects, and the DepartmentID, LastName, and FirstName fields from all the Student objects\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b c.\cell The DepartmentName field from all the Department objects, and the LastName and FirstName fields from all the Student objects\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf1\b0 d.\cell The DepartmentName field from all the Department objects with matching DepartmentID fields in one or more Student objects, and the LastName and FirstName fields from all the  matching Student objects\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab\par
+
+\pard\keep\hyphpar0\widctlpar\page\b Code example 18-1\par
+\f2\fs18 public class Department\par
+\{\par
+    public int DepartmentID;\par
+    public string DepartmentName;\par
+    public string Chairman;\par
+\}\par
+public class Student\par
+\{\par
+    public int StudentID;\par
+    public string LastName;\par
+    public string FirstName;\par
+    public int DepartmentID;\par
+    public int UnitsCompleted;\par
+\}\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\b0\f0\fs22\par
+15.\tab (Refer to code example 18-1.) What data will be returned when the following method-based query is executed?\par
+
+\pard\keep\hyphpar0\widctlpar\b\f2\fs18 List<Student> studentList = StudentDB.GetStudents();\par
+var students = studentList\par
+               .OrderByDescending(i => i.UnitsCompleted)\par
+               .ThenBy(i => i.LastName)\par
+               .ThenBy(i => i.FirstName)\par
+               .Select(i => new \{ i.UnitsCompleted, i.LastName,\par
+
+\pard\keep\hyphpar0\widctlpar\sa120                    i.FirstName \});\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\b0\f0\fs22 a.\cell All the fields from all the Student objects sorted by the FirstName field within the LastName field within the UnitsCompleted field in descending sequence\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell All the fields from all the Student objects sorted by the UnitsCompleted field in descending sequence within the LastName field within the FirstName field\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell The UnitsCompleted, LastName, and FirstName fields from all the Student objects sorted by the FirstName field within the LastName field within the UnitsCompleted field in descending sequence\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b d.\cell The UnitsCompleted, LastName, and FirstName fields from all the Student objects sorted by the UnitsCompleted field in descending sequence within the LastName field within the FirstName field\cell\row 
+\pard\nowidctlpar\hyphpar0\cf1\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 16.\tab Which of the following is \i not\i0  true about a method-based query?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell It can use the Where() method to specify which elements are retrieved from the data source\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b b.\cell It always uses a From() clause to identify the data source\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf1\b0 c.\cell It can use the OrderBy() clause to indicate how the elements that are returned by the query are sorted\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar d.\cell It uses lambda expressions\cell\row 
+\pard\nowidctlpar\hyphpar0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\fs22\par
+
+\pard\keep\hyphpar0\widctlpar\fi-630\sa120\tab 17.\tab Which of the following is \i not\i0  true about a query expression?\par
+\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar a.\cell It can use the where clause to specify which elements are retrieved from the data source\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar b.\cell It always uses a from clause to identify the data source\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar c.\cell It can use the orderby clause to indicate how the elements that are returned by the query are sorted\cell\row\trowd\trgaph45\trleft-45\trpaddl45\trpaddr45\trpaddfl3\trpaddfr3
+\cellx315\cellx8415 
+\pard\intbl\keep\hyphpar0\widctlpar\cf2\b d.\cell It uses lambda expressions\cell\row 
+\pard\nowidctlpar\hyphpar0\cf1\b0\fs2\par
+
+\pard\nowidctlpar\hyphpar0\sa1\fs12\par
+
+\pard\nowidctlpar\hyphpar0\tx634\tx1958\tx2592\tx3916\tx4550\tx5874\tx6508\fs22\par
+}
+ 
